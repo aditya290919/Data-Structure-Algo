@@ -15,6 +15,5 @@ def my_func(my_list):
 
 
 
-my_list=[4,2,7,6]
-my_func(my_list)
+
 
