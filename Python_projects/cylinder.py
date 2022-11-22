@@ -16,7 +16,7 @@ class Cylinder():
 		self.rad = rad
 		self.height = height
 
-		return 2* self.pi * self.rad * self.height + 2 * pi * self.rad * self.rad
+		return 2* self.pi * self.rad * self.height + 2 * self.pi * self.rad * self.rad
 
 cylinder1 = Cylinder(3,9)
 
