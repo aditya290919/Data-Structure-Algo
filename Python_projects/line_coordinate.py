@@ -1,4 +1,4 @@
-class line():
+class Line():
 
 	def __init__(self,cord1,cord2):
 
@@ -25,7 +25,7 @@ class line():
 c1 = (2,3)
 c2 = (8,10)
 
-l1 = line(c1,c2)
+l1 = Line(c1,c2)
 
 l1.distance()
 l1.slope()
