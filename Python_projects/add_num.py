@@ -3,3 +3,4 @@ def my_func(a,b):
     b=7
     c=a-b
     print(c)
+
