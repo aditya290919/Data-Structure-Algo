@@ -13,9 +13,19 @@ class line():
 		return ((x2-x1)**2+(y2-y1)**2)**0.5
 
 
+	def slope(self):
+		x1,y1 = self.cord1
+		x2,y2 = self.cord2
+
+		return (y2-y1)/(x2-x1)
+
+
+
+
 c1 = (2,3)
 c2 = (8,10)
 
 l1 = line(c1,c2)
 
 l1.distance()
+l1.slope()
