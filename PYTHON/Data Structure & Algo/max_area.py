@@ -1,13 +1,13 @@
 from typing import List
 class Solution:
-	def maxArea(self,length:List[int])->int:
+	def maxArea(self,height:List[int])->int:
 		l = 0
-		r = len(length)-1
+		r = len(height)-1
 		max_area=0
 
 		while(l<r):
-			max_area=max(max_area,min(length[l],length[r]) * (r-l))
-			if (length[l]<length[r]):
+			max_area=max(max_area,min(height[l],height[r]) * (r-l))
+			if (height[l]<height[r]):
 				l+=1
 
 			else:
