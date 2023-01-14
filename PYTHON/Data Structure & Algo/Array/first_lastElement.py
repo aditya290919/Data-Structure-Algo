@@ -5,7 +5,7 @@ class Solution:
 		left = self.leftElement(nums,target)
 		right = self.rightElement(nums,target)
 
-		return left, right
+		return [left,right]
 
 
 	def leftElement(self,nums,target):
