@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
 	def max_sub_array(self,array:List[int])->int:
 		current_sum=0
