@@ -6,10 +6,3 @@ def my_func(my_list):
 				my_list[j]= my_list[j-1]
 				my_list[j-1]=a
 	print(my_list)
-
-
-
-
-
-
-
