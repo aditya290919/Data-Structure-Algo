@@ -16,7 +16,3 @@ def second_largest(arr):
 			second = x
 	
 	return second
-
-
-	
-
