@@ -1,8 +1,22 @@
-#not optimised
+#optimised
 
 def second_largest(arr):
-	if len(arr)>2:
-		return
-	a = set(arr)
-	remove_max = a.remove(max(a))
-	return max(remove_max)
+	if not arr or len(arr) < 2:
+		return None
+
+	first = second = None
+
+	for x in arr:
+		if first is None or x > first:
+			if x != first:
+				second = first
+			first = x
+
+		elif x != first and (second is None or x > second):
+			second = x
+	
+	return second
+
+
+	
+
