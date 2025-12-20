@@ -1,5 +1,4 @@
 def longest_unique_substring(s):
-
 	char_set = set()
 	left = 0
 	max_len = 0
